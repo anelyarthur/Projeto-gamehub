@@ -1,6 +1,6 @@
 # GameHub System
 
-Site de gerenciamento de games criado por André e Lucas Antônio
+Site de gerenciamento de games criado por André e Anely
 
 # GAMEHUB
 
@@ -35,7 +35,7 @@ Proporcionar uma solução intuitiva e funcional para organizar coleções de jo
 ## Desenvolvedores
 
 André
-Lucas Antônio
+Anely
 
 ---
 
