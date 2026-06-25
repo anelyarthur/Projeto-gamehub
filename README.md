@@ -1,44 +1,86 @@
-# GameHub System
+# 🎮 GameHub System
 
-Site de gerenciamento de games criado por André e Anely
+Sistema de gerenciamento de jogos desenvolvido em Java para organização de bibliotecas de games.
 
-# GAMEHUB
+## 📖 Sobre o Projeto
 
-Sistema de gerenciamento para biblioteca de jogos
-Desenvolvido por André e Lucas Antônio
+O **GameHub** é uma aplicação criada para facilitar o gerenciamento de coleções de jogos, permitindo cadastrar, consultar, editar e remover informações de forma organizada.
 
----
-
-## Sobre o Projeto
-
-O GameHub é um sistema criado para facilitar a organização e gerenciamento de jogos, permitindo controlar bibliotecas de games, categorias e usuários de forma simples e eficiente.
-
-O objetivo é tornar a gestão de jogos mais organizada, prática e digital.
+O projeto utiliza a arquitetura **DAO (Data Access Object)** para separar as regras de acesso ao banco de dados da lógica da aplicação, proporcionando maior organização, manutenção e escalabilidade do sistema.
 
 ---
 
-## Funcionalidades Principais
+## 🚀 Tecnologias Utilizadas
 
-* Cadastro de jogos
-* Organização por categorias e gêneros
-* Controle de biblioteca de games
-* Painel administrativo
-
----
-
-## Objetivo
-
-Proporcionar uma solução intuitiva e funcional para organizar coleções de jogos, seja para uso pessoal, comunidades ou plataformas de games.
+* Java
+* JDBC
+* PostgreSQL
+* SQL
+* DAO Pattern
+* Programação Orientada a Objetos (POO)
 
 ---
 
-## Desenvolvedores
+## ⚙️ Funcionalidades
 
-André
-Anely
+### Gerenciamento de Gêneros
+
+* Cadastro de gêneros
+* Consulta de gêneros por ID
+* Atualização de informações
+* Remoção de gêneros
+
+### Banco de Dados
+
+* Integração com PostgreSQL
+* Conexão centralizada através da classe `DBConnection`
+* Operações CRUD utilizando JDBC
 
 ---
 
-## Status do Projeto
+## 🛠 Padrões Utilizados
 
-Em desenvolvimento
+### DAO (Data Access Object)
+
+O projeto utiliza o padrão DAO para separar a camada de acesso ao banco de dados da lógica de negócio.
+
+### Singleton
+
+A classe `DBConnection` utiliza o padrão Singleton para garantir uma única instância de conexão durante a execução da aplicação.
+
+---
+
+## 🗄 Banco de Dados
+
+O sistema está configurado para utilizar um banco PostgreSQL chamado:
+
+```sql
+gamehub
+```
+
+A conexão é realizada através do JDBC.
+
+---
+
+## 🎯 Objetivo
+
+Desenvolver um sistema simples e eficiente para gerenciamento de informações relacionadas a jogos, servindo como projeto de aprendizado em:
+
+* Java
+* JDBC
+* PostgreSQL
+* Padrões de Projeto
+* Persistência de Dados
+
+---
+
+## 👨‍💻 Desenvolvedores
+
+* André
+* Anely
+
+---
+
+## 📌 Status do Projeto
+
+🚧 Em desenvolvimento
